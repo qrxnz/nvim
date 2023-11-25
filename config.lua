@@ -8,7 +8,9 @@
                                     
 -- vim settings
 vim.opt.number = true
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
+vim.opt.expandtab = true
 vim.opt.termguicolors = true
 vim.opt.smarttab = false
 vim.opt.hlsearch = true
