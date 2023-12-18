@@ -11,7 +11,7 @@ _  /|  / /  __/ /_/ /_ |/ / _  / _  / / / / /
 
 ### TODO
 
-- [ ] Switch packer with pckr
+- [ ] Swap packer with pckr
 
 ### Files
 ```
