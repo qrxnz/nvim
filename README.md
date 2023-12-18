@@ -12,3 +12,16 @@ _  /|  / /  __/ /_/ /_ |/ / _  / _  / / / / /
 ### TODO
 
 - [ ] Switch packer with pckr
+
+### Files
+```
+├── init.lua
+├── lua
+│  └── q
+│     ├── dap.lua
+│     ├── lsp.lua
+│     ├── lualine.lua
+│     ├── plugins.lua
+│     ├── telescope.lua
+│     └── vim_options.lua
+```
