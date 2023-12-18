@@ -11,4 +11,4 @@ _  /|  / /  __/ /_/ /_ |/ / _  / _  / / / / /
 
 ### TODO
 
-- [ ] Swithch packer with pckr
+- [ ] Switch packer with pckr
