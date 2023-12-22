@@ -13,15 +13,4 @@ _  /|  / /  __/ /_/ /_ |/ / _  / _  / / / / /
 
 - [ ] Swap packer with pckr
 
-### Files
-```
-├── init.lua
-├── lua
-│  └── q
-│     ├── dap.lua
-│     ├── lsp.lua
-│     ├── lualine.lua
-│     ├── plugins.lua
-│     ├── telescope.lua
-│     └── vim_options.lua
-```
+### Screenshot
