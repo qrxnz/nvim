@@ -8,11 +8,6 @@ _  /|  / /  __/ /_/ /_ |/ / _  / _  / / / / /
   </pre>
 </div>
 
-
-### TODO
-
-- [ ] Swap packer with pckr
-
 ### Screenshot
 
 ![nvim-screen](./img/nvim.jpg)
