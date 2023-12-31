@@ -129,7 +129,7 @@ local builtin = require("telescope.builtin")
 vim.keymap.set('n', '<C-a>', builtin.find_files, {})
 
 -- Neo-tree
-vim.keymap.set('n', '<C-l>', ':Neotree filesystem reveal left<CR>', {})
+vim.keymap.set('n', '<C-l>', ':Neotree filesystem reveal right<CR>', {})
 
 -- Cmp/Lspconfig
 local cmp = require 'cmp'
@@ -296,3 +296,15 @@ lspconfig.rust_analyzer.setup {
     "rustup", "run", "stable", "rust-analyzer",
   }
 }
+
+-- Autoclose
+require("autoclose").setup({
+   options = {
+      disabled_filetypes = { "text" },
+      disable_when_touch = false,
+      touch_regex = "[%w(%[{]",
+      pair_spaces = false,
+      auto_indent = true,
+      disable_command_mode = false,
+   },
+})
